@@ -23,7 +23,7 @@ if(!out_file){
 
 while (std::getline(in_file, read_line)){
  if(read_line == ""){
-  out_file << std::endl;
+  out_file << std::endl; 
  }
  ++add_line_number;
  out_file << std::setw(8) << std::left << add_line_number << read_line << std::endl;
